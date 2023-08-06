@@ -5,6 +5,14 @@ Description - More Logs are gonna be added soon, if you have some please do a PR
 1) Impound Logs For qb-policejob
 2) Character Creation log for qb-multicharacter
 
+qb-smallreosurces > server > logs.lua
+
+add the following lines under table
+```lua
+    ['charlogs'] = 'Your-Webhook-here',
+    ['seizelogs'] = 'Your-Webhook-here',
+```
+
 ----------------------------------------------
 
 # Impound Logs For qb-policejob
